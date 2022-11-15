@@ -56,6 +56,8 @@ a {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -66,21 +68,18 @@ a {
   color: #ffffff;
 }
 .features-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
 .featueres-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
 .what-we-do-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -95,7 +94,6 @@ a {
   background: #f5f4fa;
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -121,14 +119,14 @@ a {
   color: var(--main-color);
 }
 .team-list {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
-.projects-button .active-btn {
+.projects-button,
+.projects-button active-btn {
   height: 38px;
   top: 174px;
   background: #f5f4fa;
@@ -155,22 +153,16 @@ a {
 }
 .project {
   box-sizing: border-box;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
 .project-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
 }
 .project-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
